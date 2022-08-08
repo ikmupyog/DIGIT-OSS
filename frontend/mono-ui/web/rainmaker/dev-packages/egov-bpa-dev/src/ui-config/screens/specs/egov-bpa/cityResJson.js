@@ -235,8 +235,8 @@ export const cityModuleMockJson = {
         ],
         "StateInfo": [
           {
-            "name": "Panjab",
-            "code": "pb",
+            "name": "Kerala",
+            "code": "kl",
             "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
             "logoUrl": "https://github.com/ikmupyog/DIGIT-OSS/blob/master/frontend/mono-ui/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/logo_black.png",
             "hasLocalisation": true,
@@ -255,7 +255,7 @@ export const cityModuleMockJson = {
               },
               {
                 "label": "ਪੰਜਾਬੀ",
-                "value": "pn_IN"
+                "value": "ml_IN"
               }
             ]
           }
@@ -264,9 +264,9 @@ export const cityModuleMockJson = {
       "tenant": {
         "tenants": [
           {
-            "code": "pb",
-            "name": "Punjab",
-            "description": "Punjab",
+            "code": "kl",
+            "name": "Kerala",
+            "description": "Kerala",
             "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.jalandhar/logo.png",
             "imageId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.jalandhar/logo.png",
             "domainUrl": "www.mcjalandhar.in",
