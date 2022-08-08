@@ -238,7 +238,7 @@ export const cityModuleMockJson = {
             "name": "Panjab",
             "code": "pb",
             "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Punjab-bg-QA.jpg",
-            "logoUrl": "https://raw.githubusercontent.com/egovernments/egov-web-app/rainmaker-v1-dynamic-state/web/rainmaker/packages/assets/images/pb/mseva-punjab.png",
+            "logoUrl": "https://github.com/ikmupyog/DIGIT-OSS/blob/master/frontend/mono-ui/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/logo_black.png",
             "hasLocalisation": true,
             "defaultUrl": {
               "citizen": "/user/register",
