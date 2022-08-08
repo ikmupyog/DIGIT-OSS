@@ -254,7 +254,7 @@ export const cityModuleMockJson = {
                 "value": "hi_IN"
               },
               {
-                "label": "ਪੰਜਾਬੀ",
+                "label": "മലയാളം",
                 "value": "ml_IN"
               }
             ]
