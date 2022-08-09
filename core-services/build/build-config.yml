@@ -274,8 +274,3 @@ config:
       - work-dir: "egov-document-uploader/src/main/resources/db"
         image-name: "egov-document-uploader-db"
 
-  - name: "builds/core-services/egov-test"     
-    build:     
-      - work-dir: "egov-test"      
-        dockerfile: "build/maven/Dockerfile"       
-        image-name: "egov-test"

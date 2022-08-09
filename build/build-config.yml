@@ -95,8 +95,8 @@ config:
   - name: "builds/digit-dev/core-services/egov-test"
     build:
       - work-dir: "core-services/egov-test"
-        dockerfile: "build/maven/Dockerfile"
         image-name: "egov-test"
+        dockerfile: "build/maven/Dockerfile"
 
   - name: "builds/digit-dev/core-services/egov-common-masters"
     build:
