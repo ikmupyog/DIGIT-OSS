@@ -92,9 +92,9 @@ config:
         dockerfile: "build/maven/Dockerfile"
 # Core Services
 
-  - name: "builds/core-services/egov-test"
+  - name: "builds/digit-dev/core-services/egov-test"
     build:
-      - work-dir: "egov-test"
+      - work-dir: "core-services/egov-test"
         dockerfile: "build/maven/Dockerfile"
         image-name: "egov-test"
 
