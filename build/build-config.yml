@@ -389,6 +389,11 @@ config:
 
         
 #Municipal Services
+  - name: "builds/digit-dev/municipal-services/egov-filemgmnt"
+    build:
+      - work-dir: "municipal-services/egov-filemgmnt"
+        image-name: "egov-filemgmnt"
+        dockerfile: "build/maven/Dockerfile"
 
   - name: "builds/digit-dev/municipal-services/egov-user-event"
     build:
