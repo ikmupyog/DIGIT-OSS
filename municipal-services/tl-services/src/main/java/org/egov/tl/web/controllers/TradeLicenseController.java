@@ -124,6 +124,12 @@ import static org.egov.tl.util.TLConstants.businessService_TL;
         tlNotificationService.process(tradeLicenseRequest);
         return new ResponseEntity(HttpStatus.OK);
     }
+    
+    @GetMapping("/Hello")
+    public String getHello() {
+    	return "Hello";
+    }
+    
 
 
 }
