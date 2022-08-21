@@ -255,6 +255,7 @@ public class Util {
 	 */
 	public void validateTenantIdForUserType(String tenantId, RequestInfo requestInfo) {
 
+        log.info("tenantId -> " + tenantId + "requestInfo -> " + requestInfo.toString());
 		String userType = requestInfo.getUserInfo().getType();
 		String[] tenantSplitArray = tenantId.split("\\.");
 		Set<String> rolesTenantList = new HashSet<>();
