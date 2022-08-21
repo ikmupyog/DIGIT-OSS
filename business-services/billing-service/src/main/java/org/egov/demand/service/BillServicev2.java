@@ -209,7 +209,9 @@ public class BillServicev2 {
 	 */
 	public BillResponseV2 fetchBill(GenerateBillCriteria billCriteria, RequestInfoWrapper requestInfoWrapper) {
 
+		log.info("requestInfoWrapper -> " + requestInfoWrapper.toString());
 		RequestInfo requestInfo = requestInfoWrapper.getRequestInfo();
+		log.info("requestInfo -> " + requestInfo.toString());
 		billValidator.validateBillGenRequest(billCriteria, requestInfo);
 		if (CollectionUtils.isEmpty(billCriteria.getConsumerCode()))
 			billCriteria.setConsumerCode(new HashSet<>());
